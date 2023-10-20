@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --c1: rgba(254, 55, 29, 0.582);
+    --c2: rgb(254, 55, 29);
+    --c3: rgb(241,241,243);
+  }
+
+.logo{
+  width: 130px;
+}
+
+li:hover{
+  background-color:var(--c1);
+}
+.sec1{
+  margin-top: -50px;
+  background-color: var(--c3);
+  height: 1035px;
+}
+.text{
+  position: relative;
+  top:330px;
+  
+  }
+.falcon{
+  font-size:4rem;
+  font-weight: bold;
+  width: 50%;
+  margin-left: 25%;
+  color: rgb(1, 1, 82);
+}
+.falcon2{
+  width: 50%;
+  margin-left: 25%;
+}
+.falcon3{
+  font-size:25px;
+  font-weight: bold;
+display: flex;
+justify-content: center;
+color: black;
+}
+.sec1 .text2{
+  font-size: 1rem;
+}
+.button{
+  margin-left: 25%;
+  background-color: var(--c2);
+  height: 40px;
+  width: 120px;
+}
+
+
+
+.button2{
+  background-color: var(--c2);
+  height: 40px;
+}
+.new{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: -5px;
+  
+}
+
+
+.sec2{
+  height: 700px;
+}
+
+.sec2 .text1{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+  
+}
+
+.sec2 .text2{
+  display: flex;
+  justify-content: center;
+  color: var(--c2);
+  margin-top: -9px;
+}
+
+
+hr {
+  height: 3px;
+  background-color: var(--c2);
+  border: none;
+  margin-top: -3px;
+
+}
+.price2{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.sec4{
+  margin-top: 5rem;
+}
+/*  */
+.image-sec{
+position: relative;
+}
+
+.image1{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay{
+  position: absolute;
+  bottom: 114px;
+  background-color: var(--c2);
+  overflow: hidden;
+  width: 94.6%;
+  height: 0;
+  transition: .5s ease;
+}
+.image-sec:hover .overlay{
+  height: 15%;
+}
+h5{
+  width: 100%;
+  margin-top: 6%;
+  color: var(--c3);
+  position: absolute;
+  text-align: center;
+}
+.heart{
+  width: 100%;
+  font-size: 30px;
+  position: absolute;
+  left: 400px; 
+  bottom: 200xp;
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+.sec7{
+  height: 400px;
+}
+.text-uppercase{
+  color: black;
+}
+span{
+  color: var(--c2);
+}
