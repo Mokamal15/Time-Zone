@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   :root {
     --c1: rgba(254, 55, 29, 0.582);
@@ -13,8 +14,10 @@
   width: 130px;
 }
 
-li:hover{
+.nav-link:hover{
   background-color:var(--c1);
+  font-size: large;
+  transition: all 0.5s ease;
 }
 .sec1{
   margin-top: -50px;
@@ -142,17 +145,6 @@ h5{
   left: 400px; 
   bottom: 200xp;
 }
-
-/*  */
-
-
-
-
-
-
-
-
-
 
 
 .sec7{
